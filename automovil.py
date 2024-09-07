@@ -1,9 +1,9 @@
 class Automovil:
     def __init__(self, max_velocidad, consumo_por_km, combustible):
-        self.velocidad = 0  # km/h, iniciamos en 0
+        self.velocidad = 0  
         self.max_velocidad = max_velocidad
-        self.consumo_por_km = consumo_por_km  # litros por km
-        self.combustible = combustible  # litros
+        self.consumo_por_km = consumo_por_km 
+        self.combustible = combustible  
 
     def acelerar(self):
         if self.velocidad + 10 <= self.max_velocidad:
